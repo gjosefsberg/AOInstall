@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'gal/wizardhome'
+
   root 'pages#home'
 
   get 'pages/home'
