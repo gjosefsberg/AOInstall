@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
-  get 'gal/wizardhome'
 
   root 'pages#home'
-
+  get "wizardmedia" => "gal#w3"
+  get "wizardstart" => "gal#w1"
+  get "wizardtemplates" => "gal#w2"
+  get "wizard" => "gal#wizardhome"
   get 'pages/home'
+  get 'gal/wizardhome'
+  get 'gal/w1'
+  get 'gal/w2'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
