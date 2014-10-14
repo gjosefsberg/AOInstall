@@ -38,6 +38,8 @@ gem 'spring',        group: :development
 
 gem 'bootstrap-sass'
 
+gem 'devise'
+
 group :development, :test do
      gem 'sqlite3'
 end
